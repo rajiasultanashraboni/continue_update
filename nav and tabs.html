@@ -6,6 +6,7 @@
     <title>Yummy Restaurant</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .navbar-list .nav-item {
             margin-right: 20px;
@@ -67,29 +68,115 @@
         }
 
         footer {
-            background-color: #f8f9fa;
+            
             padding: 20px 0;
+            color: white;
         }
         footer h3 {
-            font-size: 20px;
+            font-size: 30px;
         }
         footer p {
             font-size: 14px;
-            color:black;
+            color:white;
         }
         footer ul {
             list-style-type: none;
             padding: 0;
+            
         }
         footer ul li {
             margin-bottom: 10px;
+            
         }
+        footer ul li a{
+          text-decoration: none;
+          color: white;
+        }
+        footer ul li a:hover{
+          text-decoration: underline;
+          text-decoration-color: white;
+        }
+        
         .clear{
           margin-top: 60px;
         }
-        .container-fluid{
-          padding: 40px;
+        .meet{
+          text-align: center;
+          margin-top: 50px;
+          margin-bottom: 50px;
         }
+        .card-img-top{
+          height: 200px;
+          width: 320px;
+        }
+
+        .card {
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+            /* Optionally, you can add other initial styles for the card */
+            opacity: 1;
+            transform: scale(1);
+               }
+
+        .card:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        .img-fluid{
+
+          transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+            /* Optionally, you can add other initial styles for the card */
+            opacity: 1;
+            transform: scale(1);
+
+        }
+
+        .img-fluid:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        .heading button {
+    margin-left: 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.heading button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+.footer-button{
+  padding: 5px;
+  width: 120px;
+  background-color: red;
+}
+.footer-content{
+  display: flex;
+}
+.footer-content p{
+  margin-left: 5px;
+}
+
+.footer-desc{
+  color: white;
+  text-align: center;
+}
+.social-menu{
+  display: flex;
+}
+.social-menu li{
+  margin-right: 5px;
+
+}
+.social-menu li a i{
+  color: white;
+}
+
+.footer-content a i{
+  color: white;
+}
+
+
         
     </style>
 </head>
@@ -153,36 +240,36 @@
         <div class="carousel-item active">
             <img src="/images/chicken burger.jpg" alt="Chicken Burger" class="d-block w-100">
             <div class="carousel-caption">
-                <h1>Rajia Sultana Shraboni</h1>
-                <p>I am a web developer. Still I am in the learning period. But as soon as possible I will be a good web developer.</p>
+                <h1>Foreign Restaurant Design</h1>
+                <p>A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="/images/pizza.jpg" alt="Pizza" class="d-block w-100">
             <div class="carousel-caption">
-                <h1>Rajia Sultana Shraboni</h1>
-                <p>I am a web developer. Still I am in the learning period. But as soon as possible I will be a good web developer.</p>
+                <h1>Foreign Restaurant Design</h1>
+                <p>A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="/images/restaurant.jpg" alt="Restaurant" class="d-block w-100">
             <div class="carousel-caption">
-                <h1>Rajia Sultana Shraboni</h1>
-                <p>I am a web developer. Still I am in the learning period. But as soon as possible I will be a good web developer.</p>
+                <h1>Foreign Restaurant Design</h1>
+                <p>A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="/images/sandwich.jpg" alt="Sandwich" class="d-block w-100">
             <div class="carousel-caption">
-                <h1>Rajia Sultana Shraboni</h1>
-                <p>I am a web developer. Still I am in the learning period. But as soon as possible I will be a good web developer.</p>
+                <h1>Foreign Restaurant Design</h1>
+                <p>A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="/images/vegtable salad.jpg" alt="Vegetable Salad" class="d-block w-100">
             <div class="carousel-caption">
-                <h1>Rajia Sultana Shraboni</h1>
-                <p>I am a web developer. Still I am in the learning period. But as soon as possible I will be a good web developer.</p>
+                <h1>Foreign Restaurant Design</h1>
+                <p>A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
             </div>
         </div>
     </div>
@@ -214,75 +301,104 @@
   </div>
   </div>
 
+  <div class="meet"><h3>Meet Our Team</h3></div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-4">
+  
+          <div class="card" style="width: 20rem">
+              <img src="https://media.licdn.com/dms/image/D5603AQFOWAdxRcNhEQ/profile-displayphoto-shrink_200_200/0/1691497573944?e=2147483647&v=beta&t=2pXKvLrfV4fTtIPkrk42uzFon73Y4CnjnlvaaNJqUvg" alt="" class="card-img-top">
+  
+              <div class="card-body">
+                  <h3 class="card-title">Rajia Sultana Shraboni</h3>
+                  <p class="card-text">I am a frontend web developer.Still I am in learning period.but as soon as possible i will be a good programmer</p>
+                  <a href="" class="btn btn-outline-primary">Read more</a>
+              </div>
+          </div>
+  
+      </div>
+
+      <div class="col-md-4">
+  
+        <div class="card" style="width: 20rem">
+            <img src="data:image/jpeg;base64,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" alt="" class="card-img-top">
+
+            <div class="card-body">
+                <h3 class="card-title" style="text-align: center;">William</h3>
+                <p class="card-text">I am a software engineer in Santa Barbara, CA with a passion for computer science.</p>
+                <a href="" class="btn btn-outline-primary">Read more</a>
+            </div>
+        </div>
+      </div>
+
+        <div class="col-md-4">
+  
+          <div class="card" style="width: 20rem">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj-6XAItpu7a1NsWecRpdghs4R4fqR7mNoGHo8muoZ-0OJO9XLYIzcWQigFC75Xd0pYcg&usqp=CAU" alt="" class="card-img-top">
+  
+              <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">George</h3>
+                  <p class="card-text">Hi! I am a web developer and I love all things tech.I am probably reading up on the latest development trends</p>
+                  <a href="" class="btn btn-outline-primary">Read more</a>
+              </div>
+          </div>
+  
+        </div>
+
+      </div>
+    </div>
+  </div>
        
-          <footer class="bg-info clear">
+          <footer class="bg-dark clear">
             <div class="row container">
-              <div class="col-md-4">
-                <h3 style="text-align: center;">Sandwich</h3><br>
-                <p>Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.
-                 <br> Code licensed MIT, docs CC BY 3.0. <br>
-                  Currently v5.3.3.</p>
+              <div class="col-md-3">
+                <h3 style="text-align: left; font-family:cursive; font-size: 20px; margin-left: 32px;">Yummy</h3><br>
+                
+                  <ul class="social-menu">
+                    <li><a href=""><i class="fa-brands fa-facebook-f" style="margin-left: 32px;"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                      <li> <a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                       <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+                
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                   <ul>
-                    <li>Links</li>
-                    <li>Home</li>
-                    <li>Docs</li>
-                    <li>Examples</li>
-                    <li>Icons</li>
-                    <li>Themes</li>
-                    <li>blogs</li>
-                    <li>Swag Stores</li>
-                    
-    
+                   <li><a href="" style="color: gray;">Support</a></li><br>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Downloads</a></li>
+                    <li><a href="">Locate A Dealer</a></li>
+                    <li><a href="">Product Registration</a></li>
+                    <li><a href="">Spare Parts</a></li>
                   </ul>
           
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <ul>
-                  <li>Guides</li>
-                  <li>Home</li>
-                  <li>Docs</li>
-                  <li>Examples</li>
-                  <li>Icons</li>
-                  <li>Themes</li>
-                  <li>blogs</li>
-                  <li>Swag Stores</li>
-                  
-  
+                  <li><a href="" style="color: gray;">Yummy</a></li><br>
+                    <li><a href="">About Yummy</a></li>
+                    <li><a href="">Yummy Design</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Newsroom</a></li>
+                    <li><a href="">Yummy Access</a></li>
+                    
                 </ul>
         
             </div>
-            <div class="col-md-2">
-              <ul>
-                <li>Projects</li>
-                <li>Home</li>
-                <li>Docs</li>
-                <li>Examples</li>
-                <li>Icons</li>
-                <li>Themes</li>
-                <li>blogs</li>
-                <li>Swag Stores</li>
-                
-  
-              </ul>
-      
+            <div class="col-md-3">
+              <div class="footer-content">
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                <p>Stay up to fate on the latest from Furrion</p>
+              </div><br><br>
+             
+              <input type="text" name="" id="" placeholder="Enter your e-mail address" style="background-color: black; color: gray;">
+             <hr> 
+              <button class="footer-button"><span style="color: white;">Sign Up</span></button>  
           </div>
-          <div class="col-md-2">
-            <ul>
-              <li>Community</li>
-              <li>Home</li>
-              <li>Docs</li>
-              <li>Examples</li>
-              <li>Icons</li>
-              <li>Themes</li>
-              <li>blogs</li>
-              <li>Swag Stores</li>
-              
-  
-            </ul>
-    
-        </div>
   
               </div>
               
@@ -290,6 +406,9 @@
         </div>
       </div>
     </div>   
-  </div>  
+  </div> 
+  <div class="bg-dark footer-desc">
+    &copy; Rajia 2024, developed with <span style="color: red; font-size: 1rem;">❤</span> by shraboni
+</div>
 </body>
 </html>
