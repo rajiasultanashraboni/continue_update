@@ -391,9 +391,7 @@ header p span{
 .finddesc1{
     display: flex;
     justify-content: space-between;
-}
-.number2{
-    margin-top: 10px;
+    margin-bottom: -25px;
 }
 
 .finddesc1 > .subaru{
@@ -403,8 +401,21 @@ header p span{
     font-style: normal;
     font-size:16px;
     line-height: 35px;
-    margin-top: -30px;
+    
+    
 }
+
+.number2{
+    margin-top: 10px;
+    color: #0D0A19;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size:14px;
+    line-height: 35px;
+}
+
+
 .popularp1{
     color: #9A9EA7;
     font-weight: 400;
@@ -417,8 +428,41 @@ header p span{
 }
 
 
+footer{
+    margin-top: 100px;
+    background-color: #F5F6F7;
+}
+.style ul li a{
+    text-decoration: none;
+}
+.style ul {
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 20px;
+}
+.first-column li{
+    margin-bottom: 5px;
+}
 
+ .about{
+    color: #0D0A19;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size:14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
 
+.footer-desc{
+    color: #9A9EA7;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size:14px;
+    line-height: 33px;
+    letter-spacing: -0.1px;
+}
 
 
 
